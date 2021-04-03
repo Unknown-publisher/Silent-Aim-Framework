@@ -11,7 +11,7 @@ local mt = getrawmetatable(game)
 local backupindex = mt.__index
 setreadonly(mt, false)
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Unknown-publisher/Silent-Aim-Framework/main/CoreHandler"))()
 -- // Hook
 mt.__namecall = newcclosure(function(...)
     -- // Vars
@@ -40,7 +40,7 @@ local mt = getrawmetatable(game)
 local backupindex = mt.__index
 setreadonly(mt, false)
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Unknown-publisher/Silent-Aim-Framework/main/CoreHandler"))()
 -- // Hook
 mt.__index = newcclosure(function(t, k)
     -- // Check if it trying to get our mouse's hit or target
